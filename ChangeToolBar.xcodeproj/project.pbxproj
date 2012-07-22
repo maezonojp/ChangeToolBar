@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0DB395215BC33DE0013817C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB395115BC33DE0013817C /* UIKit.framework */; };
+		E0DB395415BC33DE0013817C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB395315BC33DE0013817C /* Foundation.framework */; };
+		E0DB395615BC33DE0013817C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB395515BC33DE0013817C /* CoreGraphics.framework */; };
+		E0DB395C15BC33DF0013817C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0DB395A15BC33DF0013817C /* InfoPlist.strings */; };
+		E0DB395E15BC33DF0013817C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DB395D15BC33DF0013817C /* main.m */; };
+		E0DB396215BC33DF0013817C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DB396115BC33DF0013817C /* AppDelegate.m */; };
+		E0DB396515BC33DF0013817C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DB396415BC33DF0013817C /* ViewController.m */; };
+		E0DB396815BC33DF0013817C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DB396615BC33DF0013817C /* ViewController.xib */; };
+		E0DB397015BC33DF0013817C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB396F15BC33DF0013817C /* SenTestingKit.framework */; };
+		E0DB397115BC33DF0013817C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB395115BC33DE0013817C /* UIKit.framework */; };
+		E0DB397215BC33DF0013817C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DB395315BC33DE0013817C /* Foundation.framework */; };
+		E0DB397A15BC33DF0013817C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0DB397815BC33DF0013817C /* InfoPlist.strings */; };
+		E0DB397D15BC33DF0013817C /* ChangeToolBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DB397C15BC33DF0013817C /* ChangeToolBarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0DB397315BC33DF0013817C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0DB394415BC33DE0013817C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0DB394C15BC33DE0013817C;
+			remoteInfo = ChangeToolBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0DB394D15BC33DE0013817C /* ChangeToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeToolBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DB395115BC33DE0013817C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0DB395315BC33DE0013817C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0DB395515BC33DE0013817C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0DB395915BC33DE0013817C /* ChangeToolBar-Info.plist */ = {isa = PBXFileReference; path = "ChangeToolBar-Info.plist"; sourceTree = "<group>"; };
+		E0DB395B15BC33DF0013817C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0DB395D15BC33DF0013817C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0DB395F15BC33DF0013817C /* ChangeToolBar-Prefix.pch */ = {isa = PBXFileReference; path = "ChangeToolBar-Prefix.pch"; sourceTree = "<group>"; };
+		E0DB396015BC33DF0013817C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0DB396115BC33DF0013817C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0DB396315BC33DF0013817C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E0DB396415BC33DF0013817C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0DB396715BC33DF0013817C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E0DB396E15BC33DF0013817C /* ChangeToolBarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeToolBarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DB396F15BC33DF0013817C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0DB397715BC33DF0013817C /* ChangeToolBarTests-Info.plist */ = {isa = PBXFileReference; path = "ChangeToolBarTests-Info.plist"; sourceTree = "<group>"; };
+		E0DB397915BC33DF0013817C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0DB397B15BC33DF0013817C /* ChangeToolBarTests.h */ = {isa = PBXFileReference; path = ChangeToolBarTests.h; sourceTree = "<group>"; };
+		E0DB397C15BC33DF0013817C /* ChangeToolBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeToolBarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0DB394A15BC33DE0013817C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB395215BC33DE0013817C /* UIKit.framework in Frameworks */,
+				E0DB395415BC33DE0013817C /* Foundation.framework in Frameworks */,
+				E0DB395615BC33DE0013817C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DB396A15BC33DF0013817C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB397015BC33DF0013817C /* SenTestingKit.framework in Frameworks */,
+				E0DB397115BC33DF0013817C /* UIKit.framework in Frameworks */,
+				E0DB397215BC33DF0013817C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0DB394215BC33DE0013817C = {
+			isa = PBXGroup;
+			children = (
+				E0DB395715BC33DE0013817C /* ChangeToolBar */,
+				E0DB397515BC33DF0013817C /* ChangeToolBarTests */,
+				E0DB395015BC33DE0013817C /* Frameworks */,
+				E0DB394E15BC33DE0013817C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0DB394E15BC33DE0013817C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB394D15BC33DE0013817C /* ChangeToolBar.app */,
+				E0DB396E15BC33DF0013817C /* ChangeToolBarTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0DB395015BC33DE0013817C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB395115BC33DE0013817C /* UIKit.framework */,
+				E0DB395315BC33DE0013817C /* Foundation.framework */,
+				E0DB395515BC33DE0013817C /* CoreGraphics.framework */,
+				E0DB396F15BC33DF0013817C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0DB395715BC33DE0013817C /* ChangeToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB396015BC33DF0013817C /* AppDelegate.h */,
+				E0DB396115BC33DF0013817C /* AppDelegate.m */,
+				E0DB396315BC33DF0013817C /* ViewController.h */,
+				E0DB396415BC33DF0013817C /* ViewController.m */,
+				E0DB396615BC33DF0013817C /* ViewController.xib */,
+				E0DB395815BC33DE0013817C /* Supporting Files */,
+			);
+			path = ChangeToolBar;
+			sourceTree = "<group>";
+		};
+		E0DB395815BC33DE0013817C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB395915BC33DE0013817C /* ChangeToolBar-Info.plist */,
+				E0DB395A15BC33DF0013817C /* InfoPlist.strings */,
+				E0DB395D15BC33DF0013817C /* main.m */,
+				E0DB395F15BC33DF0013817C /* ChangeToolBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0DB397515BC33DF0013817C /* ChangeToolBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB397B15BC33DF0013817C /* ChangeToolBarTests.h */,
+				E0DB397C15BC33DF0013817C /* ChangeToolBarTests.m */,
+				E0DB397615BC33DF0013817C /* Supporting Files */,
+			);
+			path = ChangeToolBarTests;
+			sourceTree = "<group>";
+		};
+		E0DB397615BC33DF0013817C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB397715BC33DF0013817C /* ChangeToolBarTests-Info.plist */,
+				E0DB397815BC33DF0013817C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0DB394C15BC33DE0013817C /* ChangeToolBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DB398015BC33DF0013817C /* Build configuration list for PBXNativeTarget "ChangeToolBar" */;
+			buildPhases = (
+				E0DB394915BC33DE0013817C /* Sources */,
+				E0DB394A15BC33DE0013817C /* Frameworks */,
+				E0DB394B15BC33DE0013817C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeToolBar;
+			productName = ChangeToolBar;
+			productReference = E0DB394D15BC33DE0013817C /* ChangeToolBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0DB396D15BC33DF0013817C /* ChangeToolBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DB398315BC33DF0013817C /* Build configuration list for PBXNativeTarget "ChangeToolBarTests" */;
+			buildPhases = (
+				E0DB396915BC33DF0013817C /* Sources */,
+				E0DB396A15BC33DF0013817C /* Frameworks */,
+				E0DB396B15BC33DF0013817C /* Resources */,
+				E0DB396C15BC33DF0013817C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0DB397415BC33DF0013817C /* PBXTargetDependency */,
+			);
+			name = ChangeToolBarTests;
+			productName = ChangeToolBarTests;
+			productReference = E0DB396E15BC33DF0013817C /* ChangeToolBarTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0DB394415BC33DE0013817C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E0DB394715BC33DE0013817C /* Build configuration list for PBXProject "ChangeToolBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0DB394215BC33DE0013817C;
+			productRefGroup = E0DB394E15BC33DE0013817C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0DB394C15BC33DE0013817C /* ChangeToolBar */,
+				E0DB396D15BC33DF0013817C /* ChangeToolBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0DB394B15BC33DE0013817C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB395C15BC33DF0013817C /* InfoPlist.strings in Resources */,
+				E0DB396815BC33DF0013817C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DB396B15BC33DF0013817C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB397A15BC33DF0013817C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0DB396C15BC33DF0013817C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0DB394915BC33DE0013817C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB395E15BC33DF0013817C /* main.m in Sources */,
+				E0DB396215BC33DF0013817C /* AppDelegate.m in Sources */,
+				E0DB396515BC33DF0013817C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DB396915BC33DF0013817C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB397D15BC33DF0013817C /* ChangeToolBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0DB397415BC33DF0013817C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0DB394C15BC33DE0013817C /* ChangeToolBar */;
+			targetProxy = E0DB397315BC33DF0013817C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0DB395A15BC33DF0013817C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0DB395B15BC33DF0013817C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0DB396615BC33DF0013817C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0DB396715BC33DF0013817C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		E0DB397815BC33DF0013817C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0DB397915BC33DF0013817C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0DB397E15BC33DF0013817C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0DB397F15BC33DF0013817C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0DB398115BC33DF0013817C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeToolBar/ChangeToolBar-Prefix.pch";
+				INFOPLIST_FILE = "ChangeToolBar/ChangeToolBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0DB398215BC33DF0013817C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeToolBar/ChangeToolBar-Prefix.pch";
+				INFOPLIST_FILE = "ChangeToolBar/ChangeToolBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E0DB398415BC33DF0013817C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChangeToolBar.app/ChangeToolBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeToolBar/ChangeToolBar-Prefix.pch";
+				INFOPLIST_FILE = "ChangeToolBarTests/ChangeToolBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E0DB398515BC33DF0013817C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChangeToolBar.app/ChangeToolBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeToolBar/ChangeToolBar-Prefix.pch";
+				INFOPLIST_FILE = "ChangeToolBarTests/ChangeToolBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0DB394715BC33DE0013817C /* Build configuration list for PBXProject "ChangeToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DB397E15BC33DF0013817C /* Debug */,
+				E0DB397F15BC33DF0013817C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0DB398015BC33DF0013817C /* Build configuration list for PBXNativeTarget "ChangeToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DB398115BC33DF0013817C /* Debug */,
+				E0DB398215BC33DF0013817C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0DB398315BC33DF0013817C /* Build configuration list for PBXNativeTarget "ChangeToolBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DB398415BC33DF0013817C /* Debug */,
+				E0DB398515BC33DF0013817C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0DB394415BC33DE0013817C /* Project object */;
+}
