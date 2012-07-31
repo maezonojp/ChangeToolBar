@@ -37,20 +37,20 @@
 		E0DB395115BC33DE0013817C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0DB395315BC33DE0013817C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E0DB395515BC33DE0013817C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E0DB395915BC33DE0013817C /* ChangeToolBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChangeToolBar-Info.plist"; sourceTree = "<group>"; };
+		E0DB395915BC33DE0013817C /* ChangeToolBar-Info.plist */ = {isa = PBXFileReference; path = "ChangeToolBar-Info.plist"; sourceTree = "<group>"; };
 		E0DB395B15BC33DF0013817C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0DB395D15BC33DF0013817C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0DB395F15BC33DF0013817C /* ChangeToolBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChangeToolBar-Prefix.pch"; sourceTree = "<group>"; };
-		E0DB396015BC33DF0013817C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0DB395F15BC33DF0013817C /* ChangeToolBar-Prefix.pch */ = {isa = PBXFileReference; path = "ChangeToolBar-Prefix.pch"; sourceTree = "<group>"; };
+		E0DB396015BC33DF0013817C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0DB396115BC33DF0013817C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0DB396315BC33DF0013817C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0DB396315BC33DF0013817C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
 		E0DB396415BC33DF0013817C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0DB396715BC33DF0013817C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		E0DB396E15BC33DF0013817C /* ChangeToolBarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeToolBarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DB396F15BC33DF0013817C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E0DB397715BC33DF0013817C /* ChangeToolBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChangeToolBarTests-Info.plist"; sourceTree = "<group>"; };
+		E0DB397715BC33DF0013817C /* ChangeToolBarTests-Info.plist */ = {isa = PBXFileReference; path = "ChangeToolBarTests-Info.plist"; sourceTree = "<group>"; };
 		E0DB397915BC33DF0013817C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E0DB397B15BC33DF0013817C /* ChangeToolBarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeToolBarTests.h; sourceTree = "<group>"; };
+		E0DB397B15BC33DF0013817C /* ChangeToolBarTests.h */ = {isa = PBXFileReference; path = ChangeToolBarTests.h; sourceTree = "<group>"; };
 		E0DB397C15BC33DF0013817C /* ChangeToolBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeToolBarTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
